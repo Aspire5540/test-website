@@ -2,7 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+html{
+  /* background-color: aquamarine; */
+  height: 100%;
+}
+
+body{
+  /* background-color: chocolate; */
+  height: 100%;
+}
+
+#__next {
+  /* background-color: rgb(210, 30, 30); */
+  height: 100%;
+}
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +38,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
